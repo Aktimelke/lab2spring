@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+</head>
+<body>
+<h1>Главная страница</h1>
+<form action="/check-user" method="POST">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name"  required><br><br>
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <button type="submit">Войти</button>
+</form>
+</body>
+</html>
